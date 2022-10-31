@@ -34,7 +34,7 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px
+    line-height: 1.2
 }
 .logo.footer {
     color:var(--white-color);
@@ -42,7 +42,7 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
 }
 .logo-web {
     color:var(--active-linc-color)
@@ -52,30 +52,37 @@ ul {
     color:var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px
+    line-height: 1.2
+}
+.site-nav .link.active {
+    color: var(--active-linc-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
     color:var(--active-linc-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px
+    line-height: 1.2
 }
 /* site contacts */
 .site-contacts .link {
     color:var(--secondary-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.2
 }
+
 .site-contacts .link:hover,
 .site-contacts .link:focus {
     color:var(--active-linc-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.2
 }
 /* banner */
+.banner {
+    background-color: #2F303A;
+}
 .banner-name {
     color:var(--white-color);
     font-weight: 900;
@@ -87,46 +94,46 @@ ul {
     color:var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2
 }
 /* features */
 .features .title {
     color:var(--primary-text-color);
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.2
 }
 .features .text {
     color:var(--secondary-text-color);
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.8
 }
 /* team */
 .team .title {
     color:var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2
 }
 .team .text {
     color:var(--secondary-text-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2
 }
 /* portfolio */
 .portfolio .title {
     color:var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2
 }
 .portfolio .text {
     color:var(--secondary-text-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9
 }
 /* button */
 .button.primary {
@@ -134,7 +141,7 @@ ul {
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     color:var(--primary-text-color)
 }
 .button.secondary {
@@ -142,7 +149,7 @@ ul {
     border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     color:var(--primary-text-color);
 }
 .button:hover,
@@ -155,19 +162,19 @@ ul {
 
 /* footer */
 .footer {
-    background: #2F303A;
-
+    background: #2F303A
 }
 .address .link {
-    color: rgba(255, 255, 255, 0.6);
+    color:rgba(255, 255, 255, 0.6);
     font-weight: 400;
+    font-style: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.8
 }
 .address .link:hover,
 .address .link:focus {
-    color: #FFFFFF;
+    color:var(--white-color);
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.8
 }
