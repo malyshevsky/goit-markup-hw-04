@@ -76,7 +76,7 @@ p {
 .header-logo {
     margin-right: 92px;
 }
-.site-item {
+.site-nav a{
     padding: 24px 0;
     display: block;
 }
@@ -452,7 +452,9 @@ p {
     margin-bottom: 20px;
     color: var(--accent-color);
 }
-
+.footer-logo span{
+    color: var(--primary-text-color);
+}
 .page-footer .logo {
     color: var(--primary-text-color);
 }
@@ -519,7 +521,10 @@ p {
     display: flex;
     color: inherit;
 }
-.foorer-item:hover,
+.footer-icon{
+    fill: currentColor;
+}
+.footer-item:hover,
 .footer-item:focus {
     background-color: var(--accent-color);
 }
